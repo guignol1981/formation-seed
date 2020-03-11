@@ -1,4 +1,4 @@
-# dti-overflow
+# dti-overflow seed
 
 ## Project setup
 ```
