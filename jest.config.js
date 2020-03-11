@@ -1,7 +1,7 @@
 module.exports = {
     testMatch: [
         '**/__tests__/**/*.[jt]s?(x)',
-        '**/?(*.)+(spec|test|stories).[jt]s?(x)'
+        '**/?(*.)+(spec|test).[jt]s?(x)'
     ],
     preset: '@vue/cli-plugin-unit-jest/presets/typescript-and-babel',
     transformIgnorePatterns: ['node_modules/(?!(@ulaval/modul-components)/)'],
