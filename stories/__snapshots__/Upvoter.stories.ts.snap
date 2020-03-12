@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Upvoter Default 1`] = `
+<div
+  class="m-u--app-body"
+>
+  <div>
+    <button
+      class="m-icon-button m--is-skin-light m--has-ripple"
+      data-v-4b160bdb=""
+      style="width: 32px; height: 32px;"
+      type="button"
+    >
+      <svg
+        aria-hidden="true"
+        class="m-icon m-icon-button__icon"
+        data-v-3d21e689=""
+        data-v-4b160bdb=""
+        height="20px"
+        width="20px"
+      >
+        <!---->
+         
+        <use
+          aria-hidden="true"
+          class=""
+          data-v-3d21e689=""
+          xlink:href="#m-svg__arrow--up"
+        />
+      </svg>
+       
+      <!---->
+    </button>
+    
+    3
+    
+    <button
+      class="m-icon-button m--is-skin-primary m--has-ripple"
+      data-v-4b160bdb=""
+      style="width: 32px; height: 32px;"
+      type="button"
+    >
+      <svg
+        aria-hidden="true"
+        class="m-icon m-icon-button__icon"
+        data-v-3d21e689=""
+        data-v-4b160bdb=""
+        height="20px"
+        width="20px"
+      >
+        <!---->
+         
+        <use
+          aria-hidden="true"
+          class=""
+          data-v-3d21e689=""
+          xlink:href="#m-svg__arrow--down"
+        />
+      </svg>
+       
+      <!---->
+    </button>
+    
+    1
+
+  </div>
+</div>
+`;

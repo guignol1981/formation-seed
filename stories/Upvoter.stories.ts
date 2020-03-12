@@ -25,7 +25,6 @@ export const Default: () => Component = (): Component => ({
                 <Upvoter 
                     :ownerId="ownerId"
                     :votable="votable"
-                    :ownerId="ownerId"
                 >
                 </Upvoter>
         </StoryWrapper>

@@ -1,0 +1,218 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Card Default 1`] = `
+<div
+  class="m-u--app-body"
+>
+  <article
+    class="m-panel post m--is-skin-light m--has-shadow m--has-border m--is-highlighted"
+    data-v-74fdcb1f=""
+  >
+    <header
+      class="m-panel__header m--no-padding"
+      data-v-74fdcb1f=""
+    >
+      <div
+        class="m-panel__header__content"
+        data-v-74fdcb1f=""
+      >
+        <div
+          class="post__header"
+          data-v-74fdcb1f=""
+        >
+          <h2
+            class="post__title"
+            data-v-74fdcb1f=""
+          >
+            title
+          </h2>
+        </div>
+      </div>
+       
+      <!---->
+       
+      <!---->
+    </header>
+     
+    <div
+      class="m-panel__body m--no-padding"
+      data-v-74fdcb1f=""
+    >
+      
+    
+    
+      <div
+        class="post__body"
+        data-v-74fdcb1f=""
+      >
+        body
+      </div>
+       
+    </div>
+     
+    <footer
+      class="m-panel__footer m--no-padding"
+      data-v-74fdcb1f=""
+    >
+      <div
+        class="post__footer"
+        data-v-74fdcb1f=""
+      >
+        <div
+          data-v-74fdcb1f=""
+        >
+          
+                actions
+            
+        </div>
+         
+        <div
+          data-v-74fdcb1f=""
+        >
+          
+                actions
+            
+        </div>
+      </div>
+    </footer>
+  </article>
+</div>
+`;
+
+exports[`Storyshots Card With Upvoter 1`] = `
+<div
+  class="m-u--app-body"
+>
+  <article
+    class="m-panel post m--is-skin-light m--has-shadow m--has-border m--is-highlighted"
+    data-v-74fdcb1f=""
+  >
+    <header
+      class="m-panel__header m--no-padding"
+      data-v-74fdcb1f=""
+    >
+      <div
+        class="m-panel__header__content"
+        data-v-74fdcb1f=""
+      >
+        <div
+          class="post__header"
+          data-v-74fdcb1f=""
+        >
+          <h2
+            class="post__title"
+            data-v-74fdcb1f=""
+          >
+            title
+          </h2>
+        </div>
+      </div>
+       
+      <!---->
+       
+      <!---->
+    </header>
+     
+    <div
+      class="m-panel__body m--no-padding"
+      data-v-74fdcb1f=""
+    >
+      
+    
+    
+      <div
+        class="post__body"
+        data-v-74fdcb1f=""
+      >
+        body
+      </div>
+       
+    </div>
+     
+    <footer
+      class="m-panel__footer m--no-padding"
+      data-v-74fdcb1f=""
+    >
+      <div
+        class="post__footer"
+        data-v-74fdcb1f=""
+      >
+        <div
+          data-v-74fdcb1f=""
+        >
+          <div
+            data-v-74fdcb1f=""
+          >
+            <button
+              class="m-icon-button m--is-skin-light m--has-ripple"
+              data-v-4b160bdb=""
+              style="width: 32px; height: 32px;"
+              type="button"
+            >
+              <svg
+                aria-hidden="true"
+                class="m-icon m-icon-button__icon"
+                data-v-3d21e689=""
+                data-v-4b160bdb=""
+                height="20px"
+                width="20px"
+              >
+                <!---->
+                 
+                <use
+                  aria-hidden="true"
+                  class=""
+                  data-v-3d21e689=""
+                  xlink:href="#m-svg__arrow--up"
+                />
+              </svg>
+               
+              <!---->
+            </button>
+            
+    3
+    
+            <button
+              class="m-icon-button m--is-skin-primary m--has-ripple"
+              data-v-4b160bdb=""
+              style="width: 32px; height: 32px;"
+              type="button"
+            >
+              <svg
+                aria-hidden="true"
+                class="m-icon m-icon-button__icon"
+                data-v-3d21e689=""
+                data-v-4b160bdb=""
+                height="20px"
+                width="20px"
+              >
+                <!---->
+                 
+                <use
+                  aria-hidden="true"
+                  class=""
+                  data-v-3d21e689=""
+                  xlink:href="#m-svg__arrow--down"
+                />
+              </svg>
+               
+              <!---->
+            </button>
+            
+    1
+
+          </div>
+        </div>
+         
+        <div
+          data-v-74fdcb1f=""
+        >
+          
+                actions
+            
+        </div>
+      </div>
+    </footer>
+  </article>
+</div>
+`;

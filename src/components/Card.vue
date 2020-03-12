@@ -6,10 +6,9 @@
         :shadow="true"
         skin="light"
     >
-        <div slot="header" class="post__header">
+        <div v-if="title" slot="header" class="post__header">
             <h2 class="post__title">{{ title }}</h2>
         </div>
-        {{ test }}
         <div class="post__body" v-html="body"></div>
         <div slot="footer" class="post__footer">
             <div>
