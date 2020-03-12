@@ -7,17 +7,21 @@
         skin="light"
     >
         <div slot="header" class="post__header">
-            <h2 class="post__title">{{ post.title }}</h2>
+            <h2 class="post__title">{{ title }}</h2>
         </div>
-        <div class="post__body" v-html="post.body"></div>
+        {{ test }}
+        <div class="post__body" v-html="body"></div>
         <div slot="footer" class="post__footer">
-            <m-link>#Détails</m-link>
-            <m-icon-button
-                iconName="m-svg__edit"
-                buttonSize="32px"
-                iconSize="20px"
-                skin="light"
-            ></m-icon-button>
+            <div>
+                <slot name="actions-left">
+                    actions
+                </slot>
+            </div>
+            <div>
+                <slot name="actions-right">
+                    actions
+                </slot>
+            </div>
         </div>
     </m-panel>
 </template>
@@ -28,16 +32,12 @@
     import { Prop, Emit } from 'vue-property-decorator';
 
     @Component
-    export default class PostCard extends Vue {
+    export default class Card extends Vue {
         @Prop({ required: true })
-        public post!: { id: string; title: string; body: string };
+        public body!: string;
 
-        @Emit('editClicked')
-        public emitEditClicked(postId: string): void {}
-
-        protected created(): void {
-            this.emitEditClicked(this.post.id);
-        }
+        @Prop()
+        public title?: string;
     }
 </script>
 
@@ -57,10 +57,6 @@
             font-weight: bold;
             font-size: $m-font-size--h3;
             padding: 1rem;
-
-            &__author {
-                font-size: $m-font-size--s;
-            }
         }
 
         &__title {
@@ -68,24 +64,6 @@
 
             @media (min-width: $m-mq--min--s) {
                 margin: 0 0 0 $m-spacing--m;
-            }
-        }
-
-        &__profile-image {
-            flex-shrink: 0;
-            width: 30px;
-            height: 30px;
-            border-radius: 50%;
-            overflow: hidden;
-            background: $m-color--grey;
-
-            @media (min-width: $m-mq--min--s) {
-                width: 44px;
-                height: 44px;
-            }
-
-            img {
-                width: 100%;
             }
         }
 

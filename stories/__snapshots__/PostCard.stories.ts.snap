@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Storyshots PostCard Default 1`] = `
+exports[`Storyshots Card Default 1`] = `
 <div
   class="m-u--app-body"
 >
